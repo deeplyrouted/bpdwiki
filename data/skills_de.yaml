@@ -1,17 +1,253 @@
 - category: Sensorische Ebene
+  child_category: Fühlen
   name: Eiswürfel (Hand oder Mund)
   distress: true
   tags:
-    - Fühlen
+    - Kälte
 
 - category: Sensorische Ebene
+  child_category: Fühlen
   name: Eisgelkissen
   distress: true
   tags:
-    - Fühlen
+    - Kälte
 
 - category: Sensorische Ebene
+  child_category: Fühlen
   name: Kalte Dusche
   distress: true
   tags:
-    - Fühlen
+    - Kälte
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Igelball über Arme rollen
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Scharfer Schnupftabak
+  distress: true
+  tags:
+    - Geschmack
+    - Riechen
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Gummiband / Haargummi
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Mit bloßen Füßen über Holzstab rollen
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Mit nackten Füßen im Bach stehen
+  distress: true
+  tags:
+    - Kälte
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Theraband
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Unsichtbarer Stuhl
+  url: https://www.youtube.com/watch?v=YRkCz377uEU
+  distress: true
+  tags:
+    - Muskeln
+    - Belastung
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Tannennadeln
+  distress: true
+  tags:
+    - Spitz
+    - Schmerz
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Steine im Schuh
+  distress: true
+  tags:
+    - Schmerz
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Schaumbad
+  distress: false
+  tags:
+    - Wohlfühlen
+    - Wärme
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Massage / Fußreflexzonen-Massage
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Wärmflasche
+  distress: false
+  tags:
+    - Wärme
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Flauschdecke
+  distress: false
+  tags:
+    - Wärme
+    - Flauschig
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Kirschkernkissen
+  distress: false
+  tags:
+    - Wärme
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Felle (z.B. Haustier streicheln)
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Warmer Sand unter den Füßen
+  distress: false
+  tags:
+    - Wärme
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Federn
+  distress: false
+  tags:
+    - Flauschig
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Stofftier
+  distress: false
+  tags:
+    - Flauschig
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Verschiedene Bürsten
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  url: https://www.wienxtra.at/spielebox/zuhause-spielen-alt/kreative-spiele-fuer-die-sinne-und-das-gedaechtnis/
+  name: Kim-Spiele
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: Tast-Memory
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Fühlen
+  name: "In der Natur: Wurzeln, Steine, Bäume, Schlamm usw."
+  distress: false
+  tags:
+    - Natur
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Laute Musik
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Weckerklingel
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Trillerpfeife
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Quietsche-Ente
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Rhythmen nachtrommeln
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Vogelgezwitscher
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Meditationsmusik
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Musizieren
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Rauschmuschel
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Windspiel
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Bambusrohr-Regenmacher
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Klangspiele
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Hören
+  name: Hör-Memory
+  distress: false
+
+- category: Sensorische Ebene
+  child_category: Riechen
+  name: Ammoniak
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Riechen
+  name: Essig
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Riechen
+  name: Eukalyptus-Erfrischungstücher
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Riechen
+  name: Minze
+  distress: true
+
+- category: Sensorische Ebene
+  child_category: Riechen
+  name: Japanisches Heilöl
+  distress: true
