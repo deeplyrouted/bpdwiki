@@ -27,10 +27,10 @@ languages:
     languageName: "English"
     menu:
       shortcuts:
-        - name: Contribute to this wiki
+        - name: <i class='fab fa-github'></i> Contribute to this wiki
           url: https://github.com/deeplyrouted/bpdwiki
           weight: 0
-        - name: 'Reddit: r/BPD'
+        - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
   de:
@@ -42,10 +42,10 @@ languages:
     landingPageURL: '/de'
     menu:
       shortcuts:
-        - name: Zum Wiki beitragen
+        - name: <i class='fab fa-github'></i> Zum Wiki beitragen
           url: https://github.com/deeplyrouted/bpdwiki
           weight: 0
-        - name: 'Reddit: r/BPD'
+        - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
 
