@@ -6,7 +6,7 @@ showVisitedLinks: false
 
 # baseURL: 'https://bpd.wiki/'
 canonifyURLs: true
-# enableGitInfo: true
+enableGitInfo: true
 
 title: 'F60.31'
 
@@ -28,7 +28,7 @@ languages:
     menu:
       shortcuts:
         - name: Contribute to this wiki
-          url: https://github.com/
+          url: https://github.com/deeplyrouted/bpdwiki
           weight: 0
         - name: 'Reddit: r/BPD'
           url: https://reddit.com/r/bpd
@@ -43,7 +43,7 @@ languages:
     menu:
       shortcuts:
         - name: Zum Wiki beitragen
-          url: https://github.com/
+          url: https://github.com/deeplyrouted/bpdwiki
           weight: 0
         - name: 'Reddit: r/BPD'
           url: https://reddit.com/r/bpd
