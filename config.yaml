@@ -23,28 +23,33 @@ languages:
     languageCode: 'en-us'
     landingPageURL: '/en'
     weight: 1
-    languageName: "English"
+    languageName: "English 🇬🇧"
     menu:
       shortcuts:
         - name: <i class='fab fa-github'></i> Contribute to this wiki
-          url: https://github.com/deeplyrouted/bpdwiki
+          url: https://github.com/deeplyrouted/bpdwiki/issues
           weight: 0
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
+        - name: <i class='fa fa-circle-info'></i> BPD Awareness (AU)
+          url: https://www.bpdawareness.com.au/
+          weight: 2
   de:
     title: 'Emotional-instabile Persönlichkeitsstörung (EUPD)'
     description: 'Das ist ein Wiki mit Ressourcen über die emotional-instabile Persönlichkeitsstörung.'
     languageCode: 'de-de'
     weight: 2
-    languageName: "Deutsch"
+    languageName: "Deutsch 🇩🇪"
     landingPageURL: '/de'
     menu:
       shortcuts:
         - name: <i class='fab fa-github'></i> Zum Wiki beitragen
-          url: https://github.com/deeplyrouted/bpdwiki
+          url: https://github.com/deeplyrouted/bpdwiki/issues
           weight: 0
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
-
+        - name: <i class='fab fa-medikit'></i> therapie.de
+          url: https://www.therapie.de/therapeutensuche/
+          weight: 2
