@@ -1,0 +1,51 @@
+# https://learn.netlify.app/en/basics/
+
+defaultContentLanguage: 'en'
+defaultContentLanguageInSubdir: true
+showVisitedLinks: false
+
+baseURL: 'https://bpd.wiki/'
+canonifyURLs: true
+# enableGitInfo: true
+
+title: 'F60.31'
+
+theme: 'hugo-theme-learn'
+params:
+  themeVariant: 'blue'
+  titleSeparator: "-"
+  disableMermaid: true
+  disableNextPrev: true
+
+languages:
+  en:
+    title: 'Emotionally unstable personality disorder (EUPD)'
+    description: 'This is a wiki with resources about the emotionally unstable personality disorder.'
+    languageCode: 'en-us'
+    landingPageURL: '/en'
+    weight: 1
+    languageName: "English"
+    menu:
+      shortcuts:
+        - name: Contribute to this wiki
+          url: https://github.com/
+          weight: 0
+        - name: 'Reddit: r/BPD'
+          url: https://reddit.com/r/bpd
+          weight: 1
+  de:
+    title: 'Emotional-instabile Persönlichkeitsstörung (EUPD)'
+    description: 'Das ist ein Wiki mit Ressourcen über die emotional-instabile Persönlichkeitsstörung.'
+    languageCode: 'de-de'
+    weight: 2
+    languageName: "Deutsch"
+    landingPageURL: '/de'
+    menu:
+      shortcuts:
+        - name: Zum Wiki beitragen
+          url: https://github.com/
+          weight: 0
+        - name: 'Reddit: r/BPD'
+          url: https://reddit.com/r/bpd
+          weight: 1
+

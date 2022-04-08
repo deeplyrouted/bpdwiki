@@ -1,0 +1,17 @@
+- category: Sensory level
+  name: Ice cubes (in hand or mouth)
+  distress: true
+  tags:
+    - Feeling
+
+- category: Sensory level
+  name: Ice Gel Pillow
+  distress: true
+  tags:
+    - Feeling
+
+- category: Sensory level
+  name: Cold Shower
+  distress: true
+  tags:
+    - Feeling

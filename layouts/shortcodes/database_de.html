@@ -1,0 +1,30 @@
+<table>
+    <thead>
+        <tr>
+            <th>{{ i18n "name" }}</th>
+            <th>{{ i18n "category" }}</th>
+            <th>{{ i18n "distress" }}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range .Site.Data.skills_de }}
+        <tr>
+            <td>
+                {{ .name }}
+            </td>
+            <td>
+                {{ .category }}
+            </td>
+            <td>
+                {{ if .distress }}
+                    {{ i18n "_yes" }}
+                {{ else }}
+                    {{ i18n "_no" }}
+                {{ end }}
+            </td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+
+

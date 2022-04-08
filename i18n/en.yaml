@@ -1,0 +1,17 @@
+distress:
+  other: Distress skill
+
+name:
+  other: Name
+
+category:
+  other: Category
+
+description:
+  other: Description
+
+_yes:
+  other: "Yes"
+
+_no:
+  other: "No"

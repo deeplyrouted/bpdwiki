@@ -1,0 +1,17 @@
+- category: Sensorische Ebene
+  name: Eiswürfel (Hand oder Mund)
+  distress: true
+  tags:
+    - Fühlen
+
+- category: Sensorische Ebene
+  name: Eisgelkissen
+  distress: true
+  tags:
+    - Fühlen
+
+- category: Sensorische Ebene
+  name: Kalte Dusche
+  distress: true
+  tags:
+    - Fühlen

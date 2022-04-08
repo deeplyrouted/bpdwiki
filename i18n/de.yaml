@@ -1,0 +1,17 @@
+distress:
+  other: Hochstress-Skill
+
+name:
+  other: Name
+
+category:
+  other: Kategorie
+
+description:
+  other: Beschreibung
+
+_yes:
+  other: Ja
+
+_no:
+  other: Nein
