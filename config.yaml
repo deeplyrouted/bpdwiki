@@ -4,7 +4,7 @@ defaultContentLanguage: 'en'
 defaultContentLanguageInSubdir: true
 showVisitedLinks: false
 
-baseURL: 'https://bpd.wiki/'
+# baseURL: 'https://bpd.wiki/'
 canonifyURLs: true
 # enableGitInfo: true
 
