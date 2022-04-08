@@ -7,10 +7,16 @@
         </tr>
     </thead>
     <tbody>
-        {{ range .Site.Data.skills_en }}
+        {{ range sort .Site.Data.skills_en "name" "asc" }}
         <tr>
             <td>
+                {{ if .url }}
+                <a href="{{ .url }}" target="_blank">
+                    {{ .name }}
+                </a>
+                {{ else }}
                 {{ .name }}
+                {{ end }}
             </td>
             <td>
                 {{ .category }}
