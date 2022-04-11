@@ -37,9 +37,22 @@ languages:
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
-        - name: <i class='fa fa-briefcase-medical'></i> BPD Awareness (AU)
-          url: https://www.bpdawareness.com.au/
+        - name: <i class='fab fa-reddit'></i> r/BPDlite
+          url: https://reddit.com/r/bpdlite
+          weight: 1
+        - name: "<i class='fa fa-briefcase-medical'></i> Australia"
+          url: https://www.uow.edu.au/project-air/find-a-service/
           weight: 2
+        - name: "<i class='fa fa-briefcase-medical'></i> USA"
+          url: https://www.uow.edu.au/project-air/find-a-service/
+          weight: 2
+        - name: "<i class='fa fa-briefcase-medical'></i> France"
+          url: https://www.unafam.org/troubles-borderline
+          weight: 2
+        - name: "<i class='fa fa-briefcase-medical'></i> United Kingdom"
+          url: http://borderlinesupport.org.uk/
+          weight: 2
+        
   de:
     title: 'Emotional-instabile Persönlichkeitsstörung (EUPD)'
     description: 'Das ist ein Wiki mit Ressourcen über die emotional-instabile Persönlichkeitsstörung.'
@@ -54,6 +67,9 @@ languages:
           weight: 0
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
+          weight: 1
+        - name: <i class='fab fa-reddit'></i> r/BPDlite
+          url: https://reddit.com/r/bpdlite
           weight: 1
         - name: <i class='fa fa-briefcase-medical'></i> therapie.de
           url: https://www.therapie.de/therapeutensuche/
