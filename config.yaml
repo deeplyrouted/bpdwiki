@@ -9,6 +9,11 @@ enableGitInfo: true
 
 title: 'F60.31'
 
+outputs:
+  home:
+    - HTML
+    - JSON
+
 theme: 'hugo-theme-learn'
 params:
   themeVariant: 'blue'
