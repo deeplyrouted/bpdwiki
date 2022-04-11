@@ -1,8 +1,9 @@
-+++
-title = "Achtsamkeit"
-menuTitle = "Achtsamkeit"
-weight = 2
-+++
+---
+title: Achtsamkeit
+menuTitle: Achtsamkeit
+weight: 2
+draft: true
+---
 
 ## Herkunft
 

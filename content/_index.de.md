@@ -1,7 +1,7 @@
-+++
-title = "Willkommen"
-menuTitle = "Willkommen"
-+++
+---
+title: Willkommen
+menuTitle: Willkommen
+---
 
 # Willkommen
 

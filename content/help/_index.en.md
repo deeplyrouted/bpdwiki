@@ -1,7 +1,8 @@
-+++
-title = "Help"
-menuTitle = "Help"
-weight = 1
-+++
+---
+title: Help
+menuTitle: Help
+weight: 1
+draft: true
+---
 
-help
+# Where can I get help
