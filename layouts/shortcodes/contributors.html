@@ -24,14 +24,15 @@
     <strong>{{ .login | plainify }}</strong>
     <p class="title">{{ $github_profile.bio | plainify }}</p>
     <p>{{ .contributions }} contributions</p>
-    {{ if $github_profile.twitter_username }}
-      <a href="https://twitter.com/{{ $github_profile.twitter_username }}"><i class="fab fa-twitter"></i></a>
-    {{ end }}
 
     {{ if $github_profile.blog }}
       <a href="{{ $github_profile.blog | plainify }}" target="_blank">
         <i class="fa fa-user"></i>
       </a>
+    {{ end }}
+
+    {{ if $github_profile.twitter_username }}
+      <a href="https://twitter.com/{{ $github_profile.twitter_username }}"><i class="fab fa-twitter"></i></a>
     {{ end }}
 </div>
 {{ end }}
