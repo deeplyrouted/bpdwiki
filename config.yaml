@@ -37,7 +37,7 @@ languages:
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
-        - name: <i class='fa fa-circle-info'></i> BPD Awareness (AU)
+        - name: <i class='fa fa-briefcase-medical'></i> BPD Awareness (AU)
           url: https://www.bpdawareness.com.au/
           weight: 2
   de:
@@ -55,6 +55,6 @@ languages:
         - name: <i class='fab fa-reddit'></i> r/BPD
           url: https://reddit.com/r/bpd
           weight: 1
-        - name: <i class='fab fa-medikit'></i> therapie.de
+        - name: <i class='fa fa-briefcase-medical'></i> therapie.de
           url: https://www.therapie.de/therapeutensuche/
           weight: 2
