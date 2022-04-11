@@ -1,0 +1,38 @@
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+
+  margin: 10px 30px 30px 10px;
+
+  text-align: center;
+  display: inline-block;
+}
+
+</style>
+
+{{ $contributors := getJSON "https://api.github.com/repos/deeplyrouted/bpdwiki/contributors" }}
+
+{{ range sort $contributors ".contributions" }}
+{{ $github_profile := getJSON "https://api.github.com/users/" .login }}
+<div class="card-container">
+
+<div class="card">
+    <a href="https://github.com/{{ .login | plainify }}" target="_blank" >
+      <img src="{{ $github_profile.avatar_url }}" alt="{{ .login }}" style="width:100%">
+    </a>
+    <strong>{{ .login | plainify }}</strong>
+    <p class="title">{{ $github_profile.bio | plainify }}</p>
+    <p>{{ .contributions }} contributions</p>
+    {{ if $github_profile.twitter_username }}
+      <a href="https://twitter.com/{{ $github_profile.twitter_username }}"><i class="fab fa-twitter"></i></a>
+    {{ end }}
+
+    {{ if $github_profile.blog }}
+      <a href="{{ $github_profile.blog | plainify }}" target="_blank">
+        <i class="fa fa-user"></i>
+      </a>
+    {{ end }}
+</div>
+{{ end }}
+</div>
